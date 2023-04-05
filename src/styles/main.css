@@ -6,14 +6,18 @@
 	-webkit-font-smoothing: subpixel-antialiased;
 }
 article {
-	@apply flex flex-col items-start gap-8 p-8;
+	@apply flex flex-col items-start gap-8 p-8 lg:gap-10 lg:py-16;
 }
+article * {
+	@apply ml-4;
+}
+
 h1 {
-	@apply font-cursive text-4xl text-white uppercase;
+	@apply font-cursive text-4xl text-white uppercase lg:text-5xl;
 }
 p {
-	@apply text-transparent_white text-sm;
+	@apply text-transparent_white text-sm lg:text-base lg:w-3/5;
 }
 button {
-	@apply bg-light_gray py-3 px-6 rounded-full;
+	@apply bg-light_gray py-3 px-6 rounded-full lg:mt-12;
 }
