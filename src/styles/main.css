@@ -5,3 +5,15 @@
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: subpixel-antialiased;
 }
+article {
+	@apply flex flex-col items-start gap-8 p-8;
+}
+h1 {
+	@apply font-cursive text-4xl text-white uppercase;
+}
+p {
+	@apply text-transparent_white text-sm;
+}
+button {
+	@apply bg-light_gray py-3 px-6 rounded-full;
+}
